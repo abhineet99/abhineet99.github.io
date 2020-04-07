@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardActions, Button, CardTitle,CardMenu, IconButton, CardText, Icon} from 'react-mdl';
+import {Grid, Cell, Card, CardActions, CardTitle,CardMenu, CardText, Icon} from 'react-mdl';
 class projects extends Component{
     firstRow(){
             return(
@@ -99,7 +99,7 @@ class projects extends Component{
     seeLatest(){
         return(
             <div className="see-more">
-                <h1>Find latest and more, here: 
+                <h1>Find latest and more: 
                     <a href="https://github.com/abhineet99/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square"  aria-hidden="true"/>
                         abhineet99
