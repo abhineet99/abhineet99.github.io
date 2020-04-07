@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad272647.chunk.css",
-    "main.js": "/static/js/main.16980868.chunk.js",
-    "main.js.map": "/static/js/main.16980868.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bc8e0b89.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bc8e0b89.js.map",
-    "static/css/2.e4346227.chunk.css": "/static/css/2.e4346227.chunk.css",
-    "static/js/2.69bc73d1.chunk.js": "/static/js/2.69bc73d1.chunk.js",
-    "static/js/2.69bc73d1.chunk.js.map": "/static/js/2.69bc73d1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ce2f9e2c5804266c5bac42efa43f8ad0.js": "/precache-manifest.ce2f9e2c5804266c5bac42efa43f8ad0.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.e4346227.chunk.css.map": "/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.ad272647.chunk.css.map": "/static/css/main.ad272647.chunk.css.map",
-    "static/js/2.69bc73d1.chunk.js.LICENSE.txt": "/static/js/2.69bc73d1.chunk.js.LICENSE.txt",
-    "static/media/resume.pdf": "/static/media/resume.d3daa6a4.pdf"
+    "main.css": "/abhineet99.github.io/static/css/main.ad272647.chunk.css",
+    "main.js": "/abhineet99.github.io/static/js/main.75c1d759.chunk.js",
+    "main.js.map": "/abhineet99.github.io/static/js/main.75c1d759.chunk.js.map",
+    "runtime-main.js": "/abhineet99.github.io/static/js/runtime-main.2ffeee30.js",
+    "runtime-main.js.map": "/abhineet99.github.io/static/js/runtime-main.2ffeee30.js.map",
+    "static/css/2.e4346227.chunk.css": "/abhineet99.github.io/static/css/2.e4346227.chunk.css",
+    "static/js/2.69bc73d1.chunk.js": "/abhineet99.github.io/static/js/2.69bc73d1.chunk.js",
+    "static/js/2.69bc73d1.chunk.js.map": "/abhineet99.github.io/static/js/2.69bc73d1.chunk.js.map",
+    "index.html": "/abhineet99.github.io/index.html",
+    "precache-manifest.63c6451c64107086eb49dd25682bd26f.js": "/abhineet99.github.io/precache-manifest.63c6451c64107086eb49dd25682bd26f.js",
+    "service-worker.js": "/abhineet99.github.io/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/abhineet99.github.io/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.ad272647.chunk.css.map": "/abhineet99.github.io/static/css/main.ad272647.chunk.css.map",
+    "static/js/2.69bc73d1.chunk.js.LICENSE.txt": "/abhineet99.github.io/static/js/2.69bc73d1.chunk.js.LICENSE.txt",
+    "static/media/resume.pdf": "/abhineet99.github.io/static/media/resume.d3daa6a4.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc8e0b89.js",
+    "static/js/runtime-main.2ffeee30.js",
     "static/css/2.e4346227.chunk.css",
     "static/js/2.69bc73d1.chunk.js",
     "static/css/main.ad272647.chunk.css",
-    "static/js/main.16980868.chunk.js"
+    "static/js/main.75c1d759.chunk.js"
   ]
 }
