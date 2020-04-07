@@ -3,7 +3,10 @@ import './App.css';
 import Main from './components/main.js';
 import Pdf from './docs/resume.pdf';
 import { Link } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
+import ReactDOM from 'react-dom';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+
 function App() {
   return (
     <div className="demo-big-content">
