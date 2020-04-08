@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Grid, Cell, Card, CardActions, CardTitle,CardMenu, CardText, Icon} from 'react-mdl';
+import {Grid, Cell, Card, CardActions, CardTitle, CardText} from 'react-mdl';
 import {Link} from 'react-router-dom';
 class books extends Component{
     firstRow(){
@@ -19,9 +19,6 @@ class books extends Component{
                             </a>
                         </div>
                     </CardActions>
-                    <CardMenu style={{color: '#ffff'}}>
-                        <Icon name="share"/>
-                    </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn3.whatculture.com/images/2020/03/86d431d0eb1ad4f8-600x338.jpg) center / cover'}}>George Martin</CardTitle>
@@ -35,9 +32,6 @@ class books extends Component{
                             </a>
                         </div>
                     </CardActions>
-                    <CardMenu style={{color: '#ffff'}}>
-                        <Icon name="share"/>
-                    </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://media-cache-ak0.pinimg.com/736x/cf/9c/ed/cf9cedd4db8f1d18c4e9199c006dfabe.jpg) center / cover'}}>Amish Tripathi</CardTitle>
@@ -51,9 +45,6 @@ class books extends Component{
                             </a>
                         </div>
                     </CardActions>
-                    <CardMenu style={{color: '#ffff'}}>
-                        <Icon name="share"/>
-                    </CardMenu>
                 </Card>
 
                 </div>
@@ -74,9 +65,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/media/Df8f6-DU0AAcr_4.jpg) center / cover'}}>Cecelia Ahern</CardTitle>
@@ -90,9 +78,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://pictures.abebooks.com/isbn/9780007538393-us.jpg) center / cover'}}>Cecelia Ahern</CardTitle>
@@ -106,9 +91,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: 'black', fontWeight:'bold',height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/51gB3SeX82L._SX307_BO1,204,203,200_.jpg) center / cover'}}>Sidney Sheldon</CardTitle>
@@ -122,9 +104,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://4.imimg.com/data4/VA/VY/GLADMIN-11836243/1-500x500.jpg) center / cover'}}>Robin Sharma</CardTitle>
@@ -138,9 +117,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/5171w-4D2FL.jpg) center / cover'}}>Dan Brown</CardTitle>
@@ -154,9 +130,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
 
     </div>)
@@ -176,9 +149,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/51nHJ9lxKZL.jpg) center / cover'}}>Anne Frank</CardTitle>
@@ -192,9 +162,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/51aRSJxtArL.jpg) center / cover'}}>Jonathan Swift</CardTitle>
@@ -208,9 +175,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/51W8IWdCSKL._SX322_BO1,204,203,200_.jpg) center / cover'}}>Roald Dahl</CardTitle>
@@ -224,9 +188,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#black', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/51qAZk60G%2BL._SX331_BO1,204,203,200_.jpg) center / cover'}}>Mark Twain</CardTitle>
@@ -240,9 +201,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/51nmv91F3iL._SX317_BO1,204,203,200_.jpg) center / cover'}}>Ashwin Sanghi</CardTitle>
@@ -256,9 +214,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
 
     </div>)
@@ -278,9 +233,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/51rS%2B6OVm-L._SX323_BO1,204,203,200_.jpg) center / cover'}}>Chetan Bhagat</CardTitle>
@@ -294,9 +246,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/512cBECZ5QL.jpg) center / cover'}}>Chetan Bhagat</CardTitle>
@@ -310,9 +259,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/512EoUXKmsL._SX386_BO1,204,203,200_.jpg) center / cover'}}>Rhonda Byrne</CardTitle>
@@ -326,9 +272,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/51NRPISnBuL._SX341_BO1,204,203,200_.jpg) center / cover'}}>J.K Rowling</CardTitle>
@@ -342,9 +285,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
 
 
@@ -365,9 +305,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/41lZKXt1%2BML._SX332_BO1,204,203,200_.jpg) center / cover'}}>Yuval Noah Harari</CardTitle>
@@ -381,9 +318,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images-na.ssl-images-amazon.com/images/I/51ui2QEBp3L._SX326_BO1,204,203,200_.jpg) center / cover'}}>Stephen Hawking</CardTitle>
@@ -397,9 +331,6 @@ class books extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
 
 

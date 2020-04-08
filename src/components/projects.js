@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Grid, Cell, Card, CardActions, CardTitle,CardMenu, CardText, Icon} from 'react-mdl';
+import {Grid, Cell, Card, CardActions, CardTitle, CardText} from 'react-mdl';
 class projects extends Component{
     firstRow(){
             return(
@@ -18,9 +18,6 @@ class projects extends Component{
                             </a>
                         </div>
                     </CardActions>
-                    <CardMenu style={{color: '#ffff'}}>
-                        <Icon name="share"/>
-                    </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mathworks.com/help/examples/vision/win64/CreatePointCloudObjectAndInspectPropertiesExample_01.png) center / cover'}}>3-D Point Cloud Registration</CardTitle>
@@ -34,9 +31,6 @@ class projects extends Component{
                             </a>
                         </div>
                     </CardActions>
-                    <CardMenu style={{color: '#ffff'}}>
-                        <Icon name="share"/>
-                    </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://inyangenewss.com/wp-content/uploads/2017/01/Tool.jpg) center / cover'}}>Media Monitoring System</CardTitle>
@@ -50,9 +44,6 @@ class projects extends Component{
                             </a>
                         </div>
                     </CardActions>
-                    <CardMenu style={{color: '#ffff'}}>
-                        <Icon name="share"/>
-                    </CardMenu>
                 </Card>
 
                 </div>
@@ -73,9 +64,6 @@ class projects extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#black', height: '176px', background: 'url(https://www.humantouchllc.com/hs-fs/hubfs/Icons/portal-04.jpg?width=1668&name=portal-04.jpg) center / cover'}}>Faculty Leave Portal</CardTitle>
@@ -89,9 +77,6 @@ class projects extends Component{
                 </a>
             </div>
         </CardActions>
-        <CardMenu style={{color: '#ffff'}}>
-            <Icon name="share"/>
-        </CardMenu>
     </Card>
 
     </div>)
