@@ -13,7 +13,7 @@ class about extends Component{
                         className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h5>Do you know what Collatz Conjecture is? It is a <a href="https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank" rel="noopener noreferrer">beautiful litlle thing.</a></h5>
+                            <h5>Do you know what Collatz Conjecture is? It is a <a href="https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank" rel="noopener noreferrer">beautiful little thing.</a></h5>
                             <hr/>
                             <h4>Anyway, I'm Abhineet, currently in the pre-final year of my B.Tech. in Computer Science at IIT Ropar. I take in interest in Deep Learning and Software Development.</h4>
 
