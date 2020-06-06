@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import myImage from '../img/me_pval.png';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 class contact extends Component{
     render(){
@@ -8,7 +9,7 @@ class contact extends Component{
                 <Cell col={6}>
                         <h2>Abhineet Pandey</h2>
                         <img 
-                            src="https://icon-library.net/images/icon-programmer/icon-programmer-14.jpg"
+                            src={myImage}
                             alt="avatar"
                             style={{height: '250px'}}
                         />
@@ -36,7 +37,7 @@ class contact extends Component{
                             <ListItem>
                             <ListItemContent style={{fontSize: '25px', fontFamily: 'Oswald'}}>
                                 <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                                    <a href="https://www.linkedin.com/in/abhineet-pandey-32664515b/" rel="noopener noreferrer" target="_blank">
+                                    <a href="https://www.linkedin.com/in/abhineet-pandey/" rel="noopener noreferrer" target="_blank">
                                         Abhineet Pandey
                                     </a>
                             </ListItemContent>

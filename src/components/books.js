@@ -23,7 +23,7 @@ class books extends Component{
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn3.whatculture.com/images/2020/03/86d431d0eb1ad4f8-600x338.jpg) center / cover'}}>George Martin</CardTitle>
                     <CardText>
-                        A song of ice and fire. I'm reading the fourth book currently.
+                        A song of ice and fire. I'm reading the fifth book currently.
                     </CardText>
                     <CardActions border>
                         <div className="project-links">

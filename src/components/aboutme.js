@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
+import myImage from '../img/me_pval.png';
+
 import { Link } from 'react-router-dom';
 class about extends Component{
     render(){
@@ -8,12 +10,12 @@ class about extends Component{
                 <Grid className="about-grid">
                     <Cell col={12}>
                         <img
-                        src="https://icon-library.net/images/icon-programmer/icon-programmer-14.jpg"
+                        src={myImage}
                         alt="avatar"
                         className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h5>Do you know what Collatz Conjecture is? It is a <a href="https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank" rel="noopener noreferrer">beautiful little thing.</a></h5>
+                            <h5>Do you know what <a href="https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank" rel="noopener noreferrer">Collatz Conjecture</a> is? It is a beautiful little(or maybe not?) thing.</h5>
                             <hr/>
                             <h4>Anyway, I'm Abhineet, currently in the pre-final year of my B.Tech. in Computer Science at IIT Ropar. I take in interest in Deep Learning and Software Development.</h4>
 
