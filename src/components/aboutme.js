@@ -17,7 +17,7 @@ class about extends Component{
                         <div className="banner-text">
                             <h5>Do you know what <a href="https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank" rel="noopener noreferrer">Collatz Conjecture</a> is? It is a beautiful little(or maybe not?) thing.</h5>
                             <hr/>
-                            <h4>Anyway, I'm Abhineet, currently in the pre-final year of my B.Tech. in Computer Science at IIT Ropar. I take in interest in Deep Learning and Software Development.</h4>
+                            <h4>Anyway, I'm Abhineet, currently in the pre-final year of my B.Tech. in Computer Science at IIT Ropar. I take interest in Deep Learning and Software Development.</h4>
 
                         </div>
                     </Cell>
